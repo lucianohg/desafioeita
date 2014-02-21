@@ -1,12 +1,107 @@
-<div class = "container">
-  <%= image_tag "Banner1.png", class: "img-circle" %>
-</div>
-<div class= "container form">
-  <%=link_to "Inscreva-se", "https://docs.google.com/forms/d/1HV6R2taULzMUiZsnAQthLcBEL12jLtKrC6DXb7aGNdw/viewform", class:"inscreva" %>    
-</div> 
-<div class = "container">
-  <%= image_tag "Banner2.png", class: "img-circle" %>
-</div>
-<footer class = "container">
-  <%= image_tag "Footer.png", class: "img-circle" %>
-</div>
+<html>
+  <head>
+    <title>Evento de Empreendedorismo do ITA</title>
+    <link rel="stylesheet" href="assets/stylesheets/custom.css.scss">
+    <script type="text/javascript" src="assets/javascripts/jquery-1.11.0.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h2>23/02 às 13:00</h2>
+      <%= image_tag "logo.png"%>
+      <h1>Desafio de empreendedorismo EITA MAH</h1>
+    </div>
+    <div class="corpo">
+      <div class="desafio">
+        <strong>"</strong> Tenho uma ideia, como utilizar as <br>iniciativas e os recursos do ITA <br> para desenvolver um negócio? <strong>"</strong>
+
+        <a href="https://docs.google.com/forms/d/1HV6R2taULzMUiZsnAQthLcBEL12jLtKrC6DXb7aGNdw/viewform">
+          <div class="participe_aux">
+          <span class="participe">
+            <%= image_tag "seta.png" %>PARTICIPE
+          </span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="header mid footer">
+      <h1>O centro de empreendedorismo do ITA (EITA) acredita que empreender é a 
+      capacidade de conectar os recursos disponíveis com necessidades 
+      do mercado através de um modelo lucrativo de negócio.</h1>
+    </div>
+    <div class="header mid">
+      <div class="show">
+      <div class="div1">
+        <h2>Bate-papo com empreendedores</h2>
+        <div class="caio">
+          <%= image_tag "bola_caio.png"%>
+          <h1>Caio Braz - Empreendedor da Backpacker</h1>
+          <p>Backpacker é um jogo online que simula
+uma viagem por Nova Iorque para ensinar inglês. 
+Nele, você e seus amigos vão enfrentando
+as mesmas situações que você enfrentaria 
+se estivesse viajando!</p>
+        </div>
+        
+        <div class="diego">
+          <%= image_tag "bola_diego.png"%>
+          <h1>Diego Alvarez - Empreendedor da Easyaula</h1>
+          <p>A Easyaula ajuda profissionais e empresas a crescerem 
+profissionalmente. Ministrando cursos exclusivos e adequados
+a uma metodologia própria do  Easyaula.</p>
+        </div>
+        
+        
+      </div>
+      <div class="div2">
+        <h2>Cronograma</h2>
+        <div style="clear:both"></div>
+        <div>
+          <table>
+            <tr>
+              <td><strong>13:00</strong></td>
+              <td>Bate-papo com empreendedores</td>
+            </tr>
+            <tr>
+              <td><strong>13:30</strong></td>
+              <td>Geração de ideias</td>
+            </tr>
+            <tr>
+              <td><strong>15:00</strong></td>
+              <td>Divisão de Equipes e votação das ideias</td>
+            </tr>
+            <tr>
+              <td><strong>16:00</strong></td>
+              <td>Coffee Break</td>
+            </tr>
+            <tr>
+              <td><strong>16:15</strong></td>
+              <td>Modelagem de negócio</td>
+            </tr>
+            <tr>
+              <td><strong>18:00</strong></td>
+              <td>Happy Hour</td>
+            </tr>
+          </table>
+        </div>
+        <h2>Premiação</h2>
+        <p>Ao final do período o melhor projeto será agraciado com um prêmio "surpresa" por uma banca avaliadora formada por consultores externos e empresários. Para encerrar o evento, ocorrerá um happy hour <br><br>
+
+Para os interessados em participar do eITA, este evento será utilizado como atividade de integração e formação dos novos admitidos.</p>
+      </div>
+      </div>  
+    </div>
+
+    <div class="header mid footer" style="clear:both; height:40px">
+    </div>
+    <div class="header mid" style="padding:0; height:400px">
+      <div class="div1" width="30%">
+        <h1 style="padding-top:15px">Realização:</h1>
+        <%= image_tag "Logos-azul.png", width:"400px"%>
+      </div>
+      <div class="div2">
+        <h1 style="padding-top:15px">Apoio:</h1>
+        <%= image_tag "logo_parceiros.png", width: "400px" %></div>
+        
+    </div>
+  </body>
+</html>
