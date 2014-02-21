@@ -1,0 +1,196 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+body {
+  margin: 0;
+  min-width: 1040px; }
+
+.header {
+  background-image: url(/assets/back_head.png);
+  height: 200px;
+  width: 100%;
+  font-family: Helvetica; }
+
+.header img {
+  float: left; }
+
+.header h1 {
+  padding-top: 152px; }
+
+.header h2 {
+  float: right;
+  font-size: 50px;
+  margin-right: 20%;
+  color: #4e7a90; }
+
+.mid {
+  text-align: center;
+  height: 523px;
+  padding-top: 22px; }
+
+.mid h1 {
+  padding-top: 20px;
+  font-size: 22px;
+  padding: 60px; }
+
+.mid h2 {
+  padding-top: 14px;
+  font-size: 20px;
+  padding: 0px;
+  display: block; }
+
+.desafio {
+  overflow: visible;
+  font-family: Georgia;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 50px;
+  color: white;
+  background-image: url(/assets/back_header.jpg); }
+
+.desafio a:hover {
+  color: white;
+  display: block;
+  text-decoration: none; }
+
+.desafio a:link {
+  color: white;
+  display: block;
+  text-decoration: none; }
+
+.desafio a {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  font-size: 23px;
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  margin-top: 80px;
+  padding-left: 0px;
+  background-image: url(/assets/bola_buttom.png);
+  overflow: hidden; }
+
+.participe {
+  padding-top: 62px;
+  padding-bottom: 60px;
+  display: inline-block;
+  margin-left: -218px;
+  width: 400px;
+  padding-top: 39px;
+  overflow: hidden;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out; }
+
+.participe:hover {
+  padding-left: 175px; }
+
+.participe img {
+  display: inline-block;
+  margin-right: 60px;
+  margin-bottom: -26px; }
+
+.participe_aux {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden; }
+
+.corpo {
+  background-image: url("./back_corpo.png");
+  height: 600px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  overflow: visible; }
+
+.footer {
+  background-image: url(/assets/back_footer.png);
+  height: 200px;
+  width: 100%;
+  padding-top: 15px;
+  color: white;
+  text-shadow: 1px 1px 1px #000000; }
+
+.div1 {
+  width: 50%;
+  max-width: 500px;
+  display: inline-block;
+  float: left; }
+
+.div1 img {
+  display: block; }
+
+.div2 {
+  width: 50%;
+  max-width: 500px;
+  display: inline-block;
+  float: right;
+  text-align: left; }
+
+.mid h2 {
+  text-align: left;
+  float: none;
+  color: #4e7a90; }
+
+.div2 table {
+  padding-top: 10px; }
+
+.menu {
+  background-color: blue;
+  height: 100px; }
+
+.caio {
+  display: block;
+  clear: both;
+  width: 100%;
+  height: 140px;
+  text-align: right; }
+
+.caio img {
+  float: left;
+  margin: 30px; }
+
+.caio h1 {
+  padding: 0;
+  padding-top: 55px;
+  font-size: 15px;
+  margin: 0; }
+
+.diego {
+  display: block;
+  clear: both;
+  width: 100%;
+  height: 140px;
+  margin: 20px;
+  text-align: left; }
+
+.diego img {
+  float: right;
+  margin: 30px; }
+
+.diego h1 {
+  padding: 0;
+  padding-top: 55px;
+  font-size: 15px;
+  margin: 0px; }
+
+.show {
+  width: 1050px;
+  margin-right: auto;
+  margin-left: auto; }
