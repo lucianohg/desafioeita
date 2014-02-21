@@ -3,7 +3,7 @@ body{
   min-width: 1040px; 
 }
 .header{
-  background-image: asset-url("back_head.png",image);
+  background-image: image-url("back_head.png");
   height: 200px;
   width: 100%;
   font-family: Helvetica;
@@ -43,7 +43,7 @@ padding-top: 22px;
   padding-bottom: 150px;
   font-size: 50px;
   color: white; 
-  background-image: asset-url("back_header.jpg",image);
+  background-image: url("assets/back_header.jpg",image);
 }
 .desafio a:hover{
   color: white;
@@ -65,7 +65,7 @@ padding-top: 22px;
   width: 150px;
   margin-top: 80px;
   padding-left: 0px;
-  background-image: asset-url("bola_buttom.png",image);
+  background-image: url("assets/bola_buttom.png",image);
   overflow: hidden;
   
 }
@@ -98,7 +98,7 @@ padding-top: 22px;
   overflow: hidden;
 }
 .corpo{
-  background-image: url("./back_corpo.png");
+  background-image: url("assets/back_corpo.png");
   height: 600px;
   width: 100%;
   margin-right: auto;
@@ -108,7 +108,7 @@ padding-top: 22px;
 
 }
 .footer{
-  background-image: asset-url('back_footer.png',image);
+  background-image: url("assets/back_footer.png",image);
   height: 200px;
   width: 100%;
   padding-top: 15px;
